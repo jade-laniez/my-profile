@@ -1,0 +1,105 @@
+body {
+	background-color: rgb(100, 150, 150);
+	color: rgb(70, 70, 70);
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-size: normal;
+	font-size : 17px;
+}
+
+
+h1 {
+	font-family: Helvetica;
+	color: black;
+	font-size: 32px;	
+}
+
+h2 {
+	font-family: Helvetica;
+	color: black;
+	font-weight: lighter;
+	font-size: 24px;	
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	transition: color 0.3s ease;	
+}
+
+a:hover {
+	color: white;
+}
+
+#logo {
+	width: 100px;
+	border-radius: 50%;
+}
+
+.text {
+	text-align: center;
+}
+
+.divi {
+	margin: 30px auto;
+	padding: 40px;
+	border-radius: 4px;
+	background: white;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	width: 600px;
+}
+
+.btn {
+	padding: 15px 20px;
+	border-radius: 4px;
+	background: rgb(100, 150, 150);
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);	
+}
+
+.btn:hover {
+	background: black;
+	color: white;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list li {
+  display: inline;
+  padding: 0px 20px;
+}
+
+.list i {
+  color: rgb(100, 150, 150);
+  font-size: 50px;
+}
+
+.list i:hover {
+		color: black;
+}
+
+@media (max-width: 960px) {
+    .divi {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+	.divi {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+	.divi {
+    width: 300px;
+  }
+}
+
+
+text-transform: uppercase;
+width: 600px;
+margin: 30px auto;
+
